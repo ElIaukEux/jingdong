@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?pgi1ls');
-  src:  url('fonts/icomoon.eot?pgi1ls#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?pgi1ls') format('truetype'),
-    url('fonts/icomoon.woff?pgi1ls') format('woff'),
-    url('fonts/icomoon.svg?pgi1ls#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?q44lbl');
+  src:  url('fonts/icomoon.eot?q44lbl#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?q44lbl') format('truetype'),
+    url('fonts/icomoon.woff?q44lbl') format('woff'),
+    url('fonts/icomoon.svg?q44lbl#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,12 +25,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-camera:before {
-  content: "\e92e";
-}
-.icon-cart:before {
-  content: "\e92f";
-}
 .icon-angellist1:before {
   content: "\e911";
 }
@@ -142,6 +136,18 @@
 }
 .icon-zoom-out1:before {
   content: "\e92d";
+}
+.icon-cheveron-right:before {
+  content: "\e930";
+}
+.icon-cheveron-up:before {
+  content: "\e931";
+}
+.icon-camera:before {
+  content: "\e92e";
+}
+.icon-cart:before {
+  content: "\e92f";
 }
 .icon-home2:before {
   content: "\e909";
