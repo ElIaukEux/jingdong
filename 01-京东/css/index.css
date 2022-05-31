@@ -1,0 +1,298 @@
+/* 页面内容宽度 */
+
+.w {
+    margin: auto;
+    width: 990px;
+}
+
+
+/* 页面背景颜色 */
+
+body {
+    background-color: #f4f4f4;
+}
+
+
+/* 字体图标 */
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?f9tdbk');
+    src: url('../fonts/icomoon.eot?f9tdbk#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?f9tdbk') format('truetype'), url('../fonts/icomoon.woff?f9tdbk') format('woff'), url('../fonts/icomoon.svg?f9tdbk#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+
+/* 快捷导航模块 */
+
+#shortcut {
+    width: 100%;
+    height: 30px;
+    background-color: #e3e4e5;
+    border-bottom: 1px solid #ddd;
+}
+
+.sc-box .left {
+    float: left;
+    width: 58px;
+    height: 28px;
+    line-height: 28px;
+    cursor: pointer;
+    color: #999;
+}
+
+.sc-box .left:hover {
+    background-color: #fff;
+}
+
+#shortcut .dw {
+    margin-right: 4px;
+    font-family: 'icomoon';
+    /* 该属性定义行内元素的基线相对于该元素所在行的基线的垂直对齐 middle放于父元素的中部*/
+    vertical-align: middle;
+    color: #f10215;
+    font-size: 14px;
+}
+
+.sc-box .right {
+    float: right;
+    line-height: 30px;
+}
+
+.sc-box .right li {
+    float: left;
+}
+
+.sc-box .right li a {
+    color: #999;
+}
+
+.sc-box .right li a:hover {
+    color: #f10215;
+}
+
+.sc-box .btn-login {
+    margin-right: 5px;
+    width: 105px;
+    text-align: left;
+    /* 超出隐藏 */
+    overflow: hidden;
+    /* 表示文本不会换行，在同一行继续，直到遇到标签为止 */
+    white-space: nowrap;
+    /* 当文本对象溢出是显示... */
+    text-overflow: ellipsis;
+    /* 兼容opera浏览器 */
+    -o-text-overflow: ellipsis;
+}
+
+.sc-box .spacer {
+    margin: 11px 5px 0;
+    width: 1px;
+    height: 10px;
+    background-color: #ccc;
+}
+
+.sc-box .right .dt {
+    padding: 0 7px;
+}
+
+.sc-box .right .mobile {
+    z-index: 20;
+}
+
+.sc-box .right .icon {
+    font-family: 'icomoon';
+    width: 12px;
+    height: 12px;
+    color: #999;
+    line-height: 12px;
+}
+
+.sc-box .right .mobile_ma {
+    margin: 5px auto;
+    width: 76px;
+    height: 76px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+    /* 50%表示 图片背景在标签中的位置 第一个值是水平位置，第二个值是垂直。 也可以使用像素表示（px）
+       no-repeat 图片不重复
+    */
+    background: url(../images/ma.png) 50% no-repeat;
+    /* 必须先有背景图片才可使用 background-size 也可以使用百分比表示
+    属性也可是： cover 把背景图像扩展至足够大，以使背景图像完全覆盖背景区域。背景图像的某些部分也许无法显示在背景定位区域中。
+                contain 把图像图像扩展至最大尺寸，以使其宽度和高度完全适应内容区域。*/
+    background-size: 60px;
+}
+
+
+/* 导航栏模块 */
+
+#header {
+    height: 140px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.hd-box {
+    position: relative;
+    height: 140px;
+}
+
+.hd-box .logo {
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+
+.hd-box .logo img {
+    width: 190px;
+    height: 120px;
+}
+
+.hd-box .search {
+    position: absolute;
+    position: relative;
+    left: 220px;
+    width: 690px;
+    height: 60px;
+}
+
+.hd-box .search .form {
+    position: relative;
+    position: absolute;
+    height: 100%;
+    width: 490px;
+}
+
+.hd-box .form .sc_word {
+    position: absolute;
+    top: 33px;
+    left: 20px;
+    width: 369px;
+    font-size: 12px;
+    color: #999;
+    z-index: 10;
+}
+
+.hd-box .form input {
+    position: absolute;
+    top: 25px;
+    padding: 2px 44px 2px 17px;
+    width: 490px;
+    height: 36px;
+    border: 2px solid #e2231a;
+}
+
+.hd-box .form .sc_icon {
+    position: absolute;
+    top: 28px;
+    right: 75px;
+    font-family: 'icomoon';
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    color: #9f9f9f;
+    cursor: pointer;
+}
+
+.hd-box .form .sc_bt {
+    position: absolute;
+    right: 3px;
+    bottom: 1px;
+    width: 58px;
+    height: 32px;
+    background-color: #e1251b;
+}
+
+.hd-box .form .sc_bt i {
+    font-family: 'icomoon';
+    color: #fff;
+    font-size: 20px;
+}
+
+.hd-box .search .myshop {
+    /* overflow: hidden; */
+    position: absolute;
+    left: 510px;
+    top: 25px;
+    width: 130px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    border: 1px solid #e3e4e5;
+    /* z-index: 1; */
+}
+
+.hd-box .search .myshop .sp_icon {
+    margin-right: 13px;
+    font-family: 'icomoon';
+    color: #e1251b;
+    font-size: 16px;
+}
+
+.hd-box .search .myshop .sp_tit {
+    color: #e1251b;
+    font-size: 12px;
+}
+
+.hd-box .search .myshop .sp_sum {
+    position: absolute;
+    top: 1px;
+    left: 29px;
+    padding: 1px 3px;
+    display: block;
+    width: 18px;
+    height: 14px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 12px;
+    background-color: #e1251b;
+    border-radius: 7px;
+}
+
+.hd-box .hotwords {
+    position: absolute;
+    left: 220px;
+    top: 65px;
+    width: 450px;
+}
+
+.hd-box .hotwords a {
+    margin-right: 10px;
+    color: #999;
+}
+
+.hd-box .hotwords a:hover {
+    color: #e1251b;
+}
+
+.hd-box .hotwords a:nth-child(1) {
+    color: #e1251b;
+}
+
+.hd-box .nav {
+    position: absolute;
+    bottom: 0px;
+    left: 203px;
+    height: 40px;
+}
+
+.hd-box .nav ul li {
+    float: left;
+    margin: 0 11px;
+    display: block;
+    height: 40px;
+    font-size: 15px;
+}
+
+.hd-box .nav ul li:nth-child(1) a {
+    color: #e1251b;
+    font-weight: 700;
+}
+
+.hd-box .nav ul li:nth-child(2) a {
+    color: #e1251b;
+    font-weight: 700;
+}
