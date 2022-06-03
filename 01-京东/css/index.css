@@ -1799,3 +1799,72 @@ body {
     background-size: 50px 20px;
     background-position: -25px 0;
 }
+
+
+/* 频道广场模块 */
+
+.channel_box {
+    height: 790px;
+    /* background-color: red; */
+}
+
+.channel_item {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 240px;
+    height: 148px;
+    background-color: #fff;
+}
+
+.channel_box .cha_big {
+    height: 306px;
+}
+
+.channel_box .cha_big img {
+    width: 100%;
+    height: 100%;
+}
+
+.channel_box .cha_side {
+    margin-right: 0;
+}
+
+.channel_box .cha_goods .cha_tit {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 8px;
+    margin-left: 30px;
+    margin-right: 10px;
+    height: 53px;
+    line-height: 25px;
+}
+
+.cha_goods .cha_tit .cha_tit1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+}
+
+.cha_goods .cha_tit .cha_tit2 {
+    margin-left: 5px;
+    font-size: 12px;
+    color: #999;
+}
+
+.cha_imglist {
+    position: relative;
+    padding-left: 30px;
+    width: 280px;
+    height: 75px;
+}
+
+.cha_goods .cha_goods_item {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.cha_goods .cha_goods_item .cha_item_img {
+    width: 75px;
+    height: 75px;
+}
