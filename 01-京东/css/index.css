@@ -1931,6 +1931,7 @@ body {
 
 #recommend .recm_goods_list {
     height: 540px;
+    margin-bottom: 10px;
 }
 
 .recm_goods_list .recm_item {
@@ -2005,8 +2006,215 @@ body {
 
 /* 服务 */
 
+.mod_service {
+    height: 103px;
+    padding: 30px 0;
+    border-bottom: 1px solid #dedede;
+}
+
+.mod_s_box {
+    height: 42px;
+}
+
+.mod_s_box li {
+    float: left;
+    width: 247px;
+    height: 42px;
+}
+
+.mod_s_unit {
+    position: relative;
+    margin: 0 auto;
+    padding-left: 45px;
+    width: 225px;
+}
+
+.mod_s_unit h5 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 36px;
+    height: 42px;
+    background: url(../images/fonter_service.png) no-repeat;
+    background-size: 113px 86.5px;
+    background-position: 0 0;
+}
+
+.mod_s_item:nth-child(2) h5 {
+    background-position: -38.5px 0;
+}
+
+.mod_s_item:nth-child(3) h5 {
+    background-position: -77px 0;
+}
+
+.mod_s_item:nth-child(4) h5 {
+    background-position: 0 -44.5px;
+}
+
+.mod_s_unit p {
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    font-size: 18px;
+    color: #444;
+    font-weight: 700;
+}
+
 
 /* 帮助指南 */
 
+.mod_help {
+    padding: 20px 0;
+}
+
+.mod_h_box {
+    height: 160px;
+}
+
+.mod_h_box .mod_h_nav {
+    float: left;
+    width: 158px;
+}
+
+.mod_h_box .mod_h_nav h5 {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #666;
+    font-weight: 700;
+}
+
+.mod_h_box .mod_h_nav li {
+    line-height: 22px;
+}
+
+.mod_h_box .mod_h_cover {
+    float: left;
+    width: 200px;
+}
+
+.mod_h_box .mod_h_cover h5 {
+    margin-bottom: 15px;
+    font-size: 14px;
+    text-align: center;
+    color: #666;
+    font-weight: 700;
+}
+
+.mod_h_cover .mod_h_con {
+    padding: 0 10px;
+}
+
+.mod_h_cover .mod_h_con .mod_h_con_more {
+    text-align: right;
+}
+
+.mod_h_cover .mod_h_con .mod_h_con_more i {
+    font-family: 'icomoon';
+}
+
 
 /* 版权信息 */
+
+.mod_c_box {
+    padding: 15px 0;
+    border-top: 1px solid #e1e1e1;
+    text-align: center;
+}
+
+.mod_c_one a {
+    color: #666;
+    font-size: 12px;
+}
+
+.mod_c_box span {
+    margin: 0 6px;
+    color: #ccc;
+}
+
+.mod_c_two {
+    padding: 10px 0;
+    line-height: 22px;
+}
+
+.mod_c_two a {
+    color: #999;
+}
+
+.mod_c_two .mod_c_cert_word {
+    color: #999;
+}
+
+.mod_c_two .mod_c_inter i {
+    display: inline-block;
+    margin-top: -1px;
+    margin-right: 10px;
+    width: 15px;
+    height: 12px;
+    background: url(../images/fonter_service.png) no-repeat;
+    background-size: 113px 86.5px;
+    background-position: -38.5px -44.5px;
+}
+
+.mod_c_inter a:nth-child(3) i {
+    background-position: -56px -44.5px;
+}
+
+.mod_c_inter a:nth-child(5) i {
+    background-position: -73.5px -44.5px;
+}
+
+.mod_c_inter a:nth-child(7) i {
+    background-position: -38.5px -59px;
+}
+
+.mod_c_inter a:nth-child(8) i {
+    background-position: -91px -59px;
+}
+
+.mod_c_three {
+    margin: 25px 0;
+}
+
+.mod_c_three a {
+    margin: 0 3px;
+    display: inline-block;
+    width: 103px;
+    height: 32px;
+    background: url(../images/mod_c_three.png) no-repeat;
+    background-position: -205px -111px;
+}
+
+.mod_c_three a:nth-child(2) {
+    background-position: -205px -74px;
+}
+
+.mod_c_three a:nth-child(3) {
+    background-position: -205px -37px;
+}
+
+.mod_c_three a:nth-child(4) {
+    background: url(../images/mod_c_three2.png) no-repeat;
+    background-position: 0 -66px;
+}
+
+.mod_c_three a:nth-child(5) {
+    background-position: 0 -155px;
+}
+
+.mod_c_three a:nth-child(6) {
+    background: url(../images/mod_c_three2.png) no-repeat;
+    background-position: 0 -99px;
+}
+
+.mod_c_three a:nth-child(7) {
+    width: 70px;
+    background: url(../images/mod_c_three2.png) no-repeat;
+    background-position: -104px -99px;
+}
+
+.mod_c_three a:nth-child(8) {
+    width: 88px;
+    background: url(../images/mod_c_three2.png) no-repeat;
+    background-position: -104px -131px;
+}
