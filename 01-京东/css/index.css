@@ -1868,3 +1868,145 @@ body {
     width: 75px;
     height: 75px;
 }
+
+
+/* 为你推荐模块 */
+
+#recommend .recm_tab {
+    overflow: hidden;
+    margin-bottom: 10px;
+    height: 60px;
+    background-color: #fff;
+}
+
+.recm_tab_list {
+    width: 900px;
+    height: 60px;
+    margin: 0 auto;
+    /* background-color: #fff; */
+}
+
+.recm_tab_list .tab_item {
+    overflow: hidden;
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+}
+
+.recm_tab_list .tab_item .tab_item_tit {
+    margin: 7px auto 0 auto;
+    width: 80px;
+    height: 27px;
+    line-height: 27px;
+    color: #333;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.recm_tab_list .tab_item:nth-child(1) .tab_item_tit {
+    color: #fff;
+    background-color: #e1252b;
+    border-radius: 50px;
+}
+
+.recm_tab_list .tab_item .tab_item_desc {
+    font-size: 14px;
+    color: #999;
+}
+
+.recm_tab_list .tab_item:nth-child(1) .tab_item_desc {
+    color: #e1251b;
+}
+
+.recm_tab_list .tab_item .tab_item_gap {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    height: 40px;
+    width: 1px;
+    background: linear-gradient(180deg, white, #dfdfdf 51%, white);
+}
+
+#recommend .recm_goods_list {
+    height: 540px;
+}
+
+.recm_goods_list .recm_item {
+    float: left;
+    width: 190px;
+    height: 266px;
+    background-color: #fff;
+    margin: 0 10px 8px 0;
+}
+
+.recm_goods_list .recm_item:nth-child(5n) {
+    margin-right: 0;
+}
+
+.recm_goods_list a {
+    display: block;
+}
+
+.recm_goods_list .recm_goods_img {
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin: 30px auto;
+}
+
+.recm_goods_list .recm_goods_name {
+    height: 40px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #666;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+
+.recm_goods_list .recm_info {
+    padding: 0 10px;
+}
+
+.recm_goods_list .recm_goods_name i {
+    margin-right: 4px;
+    padding: 0 5px;
+    display: inline;
+    width: 34px;
+    height: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    background-color: #e1251b;
+    color: #fff;
+}
+
+.recm_goods_list .recm_price {
+    margin-top: 10px;
+    height: 18px;
+    color: #e1251b;
+    line-height: 18px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.recm_goods_list .recm_price i {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+/* 页面底部 footer */
+
+
+/* 服务 */
+
+
+/* 帮助指南 */
+
+
+/* 版权信息 */
